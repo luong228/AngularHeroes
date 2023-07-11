@@ -1,5 +1,5 @@
 import { Component, DoCheck, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
-import { Hero } from '../hero';
+import { Hero } from '../interface/hero';
 @Component({
   selector: 'app-hero-detail',
   templateUrl: './hero-detail.component.html',
